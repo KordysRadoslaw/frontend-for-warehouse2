@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat);
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#main-container {
+  place-items: center center;
+}
+
+#sign-in-form {
+  max-width: 330px;
+}
+
+.form-control:focus {
+  z-index: 5;
+}
+/* .card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+
+} */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f8f8f8;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 30px;
+  border-width: 3px;
+  border-color: #ffffff;
+
+}
+
+.custom-card{
+  background-color: #f8f8f8;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 100px;
+  border-width: 5px;
+  border-color: #ffffff;
+}
+
+
+.customFont{
+  font-family: Caveat;
+  font-size: 30px;
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* .btn-dark {
+  width: 200px;
+  max-width: calc(100% - 20px);
+  height: 50px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  
+} */
+
+.btn-primary{
+  width: 200px;
+  max-width: calc(100% - 20px);
+  height: 50px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.small-input{
+  font-size: 12px;
+  padding: 2px 5px;
+  width: 90px;
+  
+  
+}
+
+.card-test{
+  box-shadow: 0 0 10px 5px;
+  display: flex;
+  min-width: 40rem;
+  
+  
+}
+/* .aaa {
+  width: 100%;
+}
+@media (max-width: 767px){
+  .aaa{
+    max-width: 50%;
+  }
+} */
+.cart-button-circle {
+  width: 50px;
+  height: 50px;
+  margin: 4px 4px;
+  border-radius: 50%;
+}
+.smaller-cart-button-circle{
+  background-color: white;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50px;
+  position: relative;
+  bottom: 15px;
+  right: -10px;
+  transform: translate(25%, 25%);
+}
+.btn-close-size{
+  font-size: 20px;
+}

@@ -1,0 +1,38 @@
+.responsive-width {
+    width: 100%;
+  }
+  @media (max-width: 767px){
+    .responsive-width{
+      max-width: 50%;
+    }
+  }
+  .btn-dark {
+    width: 160px;
+    max-width: calc(100% - 20px);
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .btn-primary{
+    width: 200px;
+    max-width: calc(100% - 20px);
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .store-card {
+    background-color: #f8f8f8;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color: #ffffff;
+  
+  }

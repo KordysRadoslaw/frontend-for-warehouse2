@@ -1,0 +1,13 @@
+.checkout-card {
+    background-color: #f8f8f8;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 10px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color: #ffffff;
+    max-height: 120px;
+  
+  }
